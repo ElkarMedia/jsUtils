@@ -295,7 +295,7 @@ var getDays = function(daysBinary,lang) {
     var result = [];
     for (var i = 0; i < 7; i++) {
         if (array[i] == 1) {
-            if (lang == "eu") {
+            if (lang == EUSKERA) {
                 result.push(daysEU[i]);
             } else {
                 result.push(daysES[i]);
